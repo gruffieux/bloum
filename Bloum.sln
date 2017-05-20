@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bloum", "Bloum.vcproj", "{7903BDB4-B2F8-4DA6-998A-F950E33F0754}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BloumRes", "BloumRes\BloumRes.vcproj", "{E1903AF7-E749-40D5-A01D-EF35DE6A266E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameConfig", "..\GameConfig\GameConfig\GameConfig.vcproj", "{3E0776DE-F13B-4752-8272-1964C411B064}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7903BDB4-B2F8-4DA6-998A-F950E33F0754}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7903BDB4-B2F8-4DA6-998A-F950E33F0754}.Debug|Win32.Build.0 = Debug|Win32
+		{7903BDB4-B2F8-4DA6-998A-F950E33F0754}.Release|Win32.ActiveCfg = Release|Win32
+		{7903BDB4-B2F8-4DA6-998A-F950E33F0754}.Release|Win32.Build.0 = Release|Win32
+		{E1903AF7-E749-40D5-A01D-EF35DE6A266E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E1903AF7-E749-40D5-A01D-EF35DE6A266E}.Debug|Win32.Build.0 = Debug|Win32
+		{E1903AF7-E749-40D5-A01D-EF35DE6A266E}.Release|Win32.ActiveCfg = Release|Win32
+		{E1903AF7-E749-40D5-A01D-EF35DE6A266E}.Release|Win32.Build.0 = Release|Win32
+		{3E0776DE-F13B-4752-8272-1964C411B064}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3E0776DE-F13B-4752-8272-1964C411B064}.Debug|Win32.Build.0 = Debug|Win32
+		{3E0776DE-F13B-4752-8272-1964C411B064}.Release|Win32.ActiveCfg = Release|Win32
+		{3E0776DE-F13B-4752-8272-1964C411B064}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
