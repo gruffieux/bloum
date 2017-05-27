@@ -162,7 +162,7 @@ void InitWindow(HINSTANCE hInst, int nCmdShow)
 	
 	//----------Création de la fenêtre----------
 
-	hWndMain = CreateWindow(wc.lpszClassName, "Bloum", WS_OVERLAPPEDWINDOW, CW_USEDEFAULT, CW_USEDEFAULT, Screen->GetCurrentMode()->GetWidth(), Screen->GetCurrentMode()->GetHeight(), (HWND) NULL, (HMENU) NULL, hInst, (LPVOID) NULL);
+	hWndMain = CreateWindow(wc.lpszClassName, "Bloum", WS_POPUPWINDOW, CW_USEDEFAULT, CW_USEDEFAULT, Screen->GetCurrentMode()->GetWidth(), Screen->GetCurrentMode()->GetHeight(), (HWND) NULL, (HMENU) NULL, hInst, (LPVOID) NULL);
 
 	if (!hWndMain)
 		ReportDxError(S_FALSE, WIN32_, ERR_CREATEWIN);
